@@ -6,3 +6,8 @@ frutas.forEach((fruta, index) => {
 frutas.map((fruta) => {
     console.log(fruta.startsWith('u'))
 })
+const frutasComM = frutas.filter((fruta) => {
+    return fruta.starstWith('m')
+})
+
+console.log(frutasComM);
